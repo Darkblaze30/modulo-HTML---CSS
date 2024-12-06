@@ -1,0 +1,34 @@
+/* div{
+    border-style: double;
+    border-color: black;
+} */
+
+/* span{
+    border-style: double;
+    border-color: black;
+} */
+
+.bloque{
+    display: block;
+    
+}
+
+.enlinea{
+    display: inline;
+    border-style: double;
+    border-color: black;
+}
+
+.enbloque{
+    display: block;
+    border-style: double;
+    border-color: black;
+    background-color: blueviolet;
+    opacity: 100%;
+}
+
+.inline-block{
+    display: inline-block;
+    visibility: collapse;
+    width: 100px;
+}

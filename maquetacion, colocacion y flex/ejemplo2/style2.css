@@ -1,0 +1,8 @@
+.posicion{
+    border: 1px solid red;
+    position: fixed;
+}
+
+.div-scroll{
+    height: 1600px;
+}
