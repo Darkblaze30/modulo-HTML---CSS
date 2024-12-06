@@ -1,8 +1,17 @@
-.posicion{
+.contenedor{
     border: 1px solid red;
-    position: fixed;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-content: stretch; */
+    align-items: center;
+    height: 300px;
+    flex-flow: row-reverse;
+    /* gap: 10px; */
 }
 
-.div-scroll{
-    height: 1600px;
+.item{
+    border: 1px solid red;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
 }
