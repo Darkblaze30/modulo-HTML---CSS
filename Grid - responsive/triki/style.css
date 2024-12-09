@@ -1,0 +1,80 @@
+.contenedor{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.triki{
+  display: grid;
+  
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  font-size: 70px;
+  
+}
+
+.item{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+.item1{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.item2{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.item3{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.item4{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.item5{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.item6{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+.item7{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+.item8{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
