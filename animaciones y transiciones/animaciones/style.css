@@ -1,0 +1,29 @@
+.animacion{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    background-color: blue;
+    animation: mover-derecha 5s linear 0s,
+    look-up 2.5s linear 5s,
+    move-left 5s linear 7.5s,
+    desaparecer 2s linear 10.5s;
+}
+
+@keyframes mover-derecha{
+    0%{transform: translateX(0px);}
+    100%{transform: translateX(200px);}
+}
+
+@keyframes look-up{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-200px);}
+}
+@keyframes move-left{
+    0%{transform: translateX(200px);}
+    100%{transform: translateX(0px);}
+}
+
+@keyframes desaparecer {
+    0%{opacity: 100%;}
+    100%{opacity: 0%;} 
+}

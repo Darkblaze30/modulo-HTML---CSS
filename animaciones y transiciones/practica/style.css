@@ -1,0 +1,45 @@
+a{
+    color: #222;
+    padding: 8px;
+    background: #bbb;
+    transition: all 0.5s linear;
+}
+a:hover{
+    background: #fff;
+    color: #666;
+    padding: 25px;
+    border: 1px solid #888;
+    transition: all 0.5s linear;
+}
+.load{
+    border:1px  black solid;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: rgb(43, 92, 226);
+}
+.load:hover{
+    width: 20px;
+    transition: 1.8s cubic-bezier(0.25,0.1,0.25,1);
+}
+
+.animacion {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: change-color 5s linear 0.5s 4 normal forwards running, mover_derecha 4s linear;
+}
+
+@keyframes change-color {
+    0% { background-color: blue; }
+    25% { background-color: green; }
+    50% { background-color: yellow; }
+    75% { background-color: orange; }
+    100% { background-color: red; }
+}
+
+@keyframes over_derecha{
+    0%{transform: translateX(0px);}
+    100%{transform: translateX(400px);}
+}

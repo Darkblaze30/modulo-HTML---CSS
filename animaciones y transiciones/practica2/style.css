@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background: #000;
+    image-rendering: pixelated;
+}
+
+.bern{
+    /* width: 112px;
+    height: 156px; 
+    background: url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/bernard-sprite.png) repeat-x;
+    animation: walk 0.8s steps(6) infinite; */
+    width: 20px;
+    height: 156px; 
+    background: url(mario\ \(1\).png) repeat-x;
+    animation: walk 0.8s steps(4) infinite;
+    margin: auto;
+    position: relative;
+    bottom: 0px;
+}
+.pikachu{
+    /* width: 112px;
+    height: 156px; 
+    background: url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/bernard-sprite.png) repeat-x;
+    animation: walk 0.8s steps(6) infinite; */
+    width: 75px;
+    height: 100px; 
+    background: url(pikachu_sprite\ sin\ fondo.png) repeat-x;
+    animation: walkpikachu 0.8s steps(4) infinite;
+    margin: auto;
+    position: relative;
+    bottom: 0px;
+}
+
+@keyframes walk {
+  /* Partimos de la primera viñeta del sprite sheet */
+  from { background-position: 0 }
+  /* Tamaño total de ancho del sprite. 
+     Es negativo para que no "camine" hacia atrás */
+  to { background-position: -832px }
+}
+@keyframes walkpikachu {
+  /* Partimos de la primera viñeta del sprite sheet */
+  from { background-position: 0 }
+  /* Tamaño total de ancho del sprite. 
+     Es negativo para que no "camine" hacia atrás */
+  to { background-position: -280px }
+}
+
+.sky {
+    background: url("https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-sky.png") repeat-x;
+  animation: movebg 9s linear infinite;
+
+}
+
+.sea{
+    background: url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-sea.png)repeat-x;
+    animation: movebg 6s linear infinite;
+    top: 145px;
+    position: relative;
+    box-shadow: 10px 10px 45px rgb(0,0,0, 0.85) inset;
+    display: flex;
+}
+
+@keyframes movebg {
+    from{background-position: 550px;}
+    to{
+        background-position: 0px;
+    }
+}
